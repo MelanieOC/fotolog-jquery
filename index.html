@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>FOTOLOG</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">
+		        <img class="img-responsive" src="img/fotolog-logo.png" alt="">
+		      </a>
+		    </div>
+		  </div>
+		</nav>
+	</header>
+	
+	<section id="contenido">
+		<div class="container">
+			<div class="text-center">
+				<h1>..:Locuras:..</h1>
+			</div>
+			<div class="row">
+				<div class="col-md-2 col-sm-2 col-xs-3 recientes">
+				<p class="fotos">Fotos Recientes</p>
+				<img src="img/ansiedad.jpg">
+				<img src="img/default (1).jpg" alt="">
+				<img src="img/rutinas.jpg" alt="">
+				<img src="img/notagroserias.jpg" alt="">
+			</div>
+			<div class="col-md-8 col-sm-8 col-xs-9">
+				<br>
+				<img src="img/default.jpg" alt="">
+				<p>Mi mejor amiga es una loca</p>
+			</div>
+			<div class="col-md-2 col-sm-2 hidden-xs recientes">
+				<p class="fotos">Fotos Recientes</p>
+				<img src="img/ansiedad.jpg">
+				<img src="img/default (1).jpg" alt="">
+				<img src="img/rutinas.jpg" alt="">
+				<img src="img/notagroserias.jpg" alt="">
+			</div>
+			</div>
+		</div>
+	</section>
+	<section class="contenido">
+		<div class="container" id="caja">
+			<div class="medio">
+				<div>
+					<div class="input-group">
+  					<span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+  					<input class="form-control" type="text" id="clave" placeholder="Name">
+					</div>
+					<div class="input-group">
+					  <span class="input-group-addon"><i class="fa fa-comment"></i></span>
+					  <textarea class="form-control" id="valor" placeholder="Comentario"></textarea>
+					</div>
+				</div>
+			
+				<div class="centro">
+					<button class="btn" id="guardar">
+						<i class="fa fa-floppy-o" aria-hidden="true"></i>
+						Guardar
+					</button>
+					<button class="btn" id="limpiar">
+						<i class="fa fa-trash" aria-hidden="true"></i>
+						Limpiar
+					</button>
+				</div>
+				<div>
+					<h3>Comentarios
+						<i class="fa fa-comments" aria-hidden="true"></i>
+					</h3>
+					<div id="ale"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="row">
+			<div class="col-md-12">
+				<p class="text-center">Laboratoria 2017</p>
+			</div>
+		</div>
+	</footer>
+	<script src="js/main.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

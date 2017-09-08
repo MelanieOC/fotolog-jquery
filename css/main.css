@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+  background: url('../img/fondo.jpg') no-repeat;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+header img{
+  width: 20%;
+  margin-left: 20px;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: underline;
+  color: green;
+  margin-bottom: 30px;
+}
+
+
+h1{
+  font-size: 300%;
+  font-weight: bolder;
+}
+.contenido{
+   
+  padding: 20px;
+}
+.input-group{
+  margin-bottom: 10px;
+}
+
+
+#guardar, #limpiar{
+  background-color: pink;
+}
+
+#ale{
+  margin: 20px auto;
+}
+
+
+.medio{
+  width: 70%;
+  margin: 5px auto;
+}
+.centro{
+  width: 30%;
+  margin: 5px auto;
+}
+
+footer{
+  background-color: silver;
+  padding: 10px;
+}
+
+/* Estilos comentarios */
+.comentario{
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.comentario h2{
+  font-size: 4em;
+}
+
+#ale .comentario div{
+  padding: 0;
+}
+
+@media(max-width: 900px){
+  header img{
+    width: 30%;
+    margin-left: 20px;
+  }
+  .comentario h2{
+    font-size: 2.5em;
+  }
+}
+
+@media(max-width: 990px){
+  .centro{
+    width: 40%;
+  }
+}
+}
